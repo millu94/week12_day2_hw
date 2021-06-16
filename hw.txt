@@ -1,0 +1,35 @@
+Polymorphism
+What does the word 'polymorphism' mean?
+-If something is polymorphic it means that it can take many forms.
+
+What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+-It means we can reduce the amount of code we have (especially method overloading) by creating "super" classes that pass their methods down.
+
+What can we use to implement polymorphism in Java?
+-Abstraction and Interfaces.
+
+How many 'forms' can an object take when using polymorphism?
+-As many as necessary.
+
+Give an example of when you could use polymorphism.
+-If you have a lot of devices with the same methods then it would be appropriate.
+
+Composition and Aggregation
+What do we mean by 'composition' in reference to object-oriented programming?
+-Composition is when Classes are made up of several objects.
+
+When would you use composition? Provide a simple example in Java.
+-If you have a class/object with properties that are not shared with other components then composition is the best option.
+
+Give a difference between composition and aggregation?
+-Composition is when classes have a "is part of" relationship and aggregation is when they have a "has a" relationship.
+
+What is/are the advantage(s) of using composition/aggregation?
+-They allow classes to use behaviours from others classes.
+
+When using composition, when an object is destroyed, what happens to all the objects it is composed of?
+All the objects are destroyed.
+
+
+When using aggregation, when an object is destroyed, what happens to all the objects it is composed of?
+All the objects live on.
